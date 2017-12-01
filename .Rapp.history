@@ -1,0 +1,15 @@
+x<- matrix(1:6,2,3)
+for(i in seq_len(nrow(x))) {
+for(j in seq_len(ncol(x))){
+print(x[i,j])
+}
+x<- c(2,3,6,9,12,42,65,74,13,34,5)
+for(i in se_along (x)){
+while(x<10){
+print(x[i])
+}
+x<- c(2,3,6,9,12,42,65,74,13,34,5)
+for(i in seq_along (x)){
+while(x<10){
+print(x[i])
+}
